@@ -4,7 +4,6 @@ body {
     color: black;
     font-family: 'Montserrat', 'sans-serif';
     font-size: 15pt;
-    
 }
 
 
@@ -18,7 +17,6 @@ body {
 /*Container*/
 .container {
     width: 100%;
-        
 }
 
 /*Header*/
@@ -29,11 +27,8 @@ body {
 .header__inner {
     display: flex;
     justify-content: space-between;
-    /*border-bottom: 2pt solid;
-    border-color: darkgreen;*/
     width: 100%;
     align-items:center;
-    
 }
 
 .header__logo {
@@ -55,7 +50,6 @@ body {
     color: darkgreen;
     opacity: .75;
     text-decoration: none;
-    
     transition: color .3s;
 }
 
@@ -74,20 +68,19 @@ body {
 
 /*Intro*/
 .intro {
-display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     height: 750px;
     padding-top: 100px;
     background:url("img/1.jpg") center no-repeat;
     background-size: cover;
-    border-top: 2px solid darkgreen; /* Параметры границы */
+    border-top: 2px solid darkgreen;
+    border-bottom: 2px solid darkgreen;
 }
 
 .intro__inner{
-    
 }
-
 
 .intro__title {
     margin: 0 auto;
@@ -101,7 +94,6 @@ display: flex;
     text-transform: uppercase;
     background: white;
     opacity: 0.85;
-    
 }
 
 .intro_subtitle {
@@ -124,28 +116,86 @@ display: flex;
     margin-top: 5%;
     transform: translate(-50%,0);
     display: inline-block;
-    vertical-align: top;
-    padding: 14px 40px;
-
+    padding: 24px 50px;
     border-radius: 2px;
     border: 0;
-    cursor: pointer;
-
     font-family:'Montserrat', 'sans-serif';
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     background: black;
-
     transition: background .5s linear;
-    
 }
 
 .btn:hover {
     background-color: darkgreen;
 }
+
+.category {
+    position: relative;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 80px;
+    
+   
+}
+
+.category_items {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 20pt;
+    font-weight: 100;
+    text-decoration: none;
+    color: darkgreen;
+    transition: color .3s;
+    text-align: center;
+    align-content: center;
+    
+    justify-content: space-between;
+    
+}
+
+.category_items:hover {
+    color: black;
+}
+
+.products__img {
+    /*margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    justify-content: space-between;
+    border: 10px black solid;
+    border-color: black;*/
+    margin: 10px 60px;
+    padding: 50px 0px;
+    
+
+}
+
+.products_description  {
+    margin: 10;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.products_items {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 10pt;
+    font-weight:700;
+    text-decoration: none; 
+    color: black;
+    
+}
+
 
 
 
